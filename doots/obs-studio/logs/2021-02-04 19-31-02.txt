@@ -1,0 +1,258 @@
+19:31:02.177: CPU Name: Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+19:31:02.177: CPU Speed: 3539.105MHz
+19:31:02.177: Physical Cores: 4, Logical Cores: 4
+19:31:02.177: Physical Memory: 15971MB Total, 1609MB Free
+19:31:02.177: Kernel Version: Linux 5.10.7-3-MANJARO
+19:31:02.177: Distribution: "Manjaro Linux" Unknown
+19:31:02.177: Session Type: x11
+19:31:02.178: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.10
+19:31:02.179: Portable mode: false
+19:31:02.226: OBS 26.1.0-2 (linux)
+19:31:02.226: ---------------------------------
+19:31:02.226: ---------------------------------
+19:31:02.226: audio settings reset:
+19:31:02.226: 	samples per sec: 48000
+19:31:02.226: 	speakers:        2
+19:31:02.229: ---------------------------------
+19:31:02.229: Initializing OpenGL...
+19:31:02.372: Loading up OpenGL on adapter NVIDIA Corporation GeForce GTX 1060 6GB/PCIe/SSE2
+19:31:02.372: OpenGL loaded successfully, version 3.3.0 NVIDIA 460.32.03, shading language 3.30 NVIDIA via Cg compiler
+19:31:02.383: ---------------------------------
+19:31:02.383: video settings reset:
+19:31:02.383: 	base resolution:   1920x1080
+19:31:02.383: 	output resolution: 1920x1080
+19:31:02.383: 	downscale filter:  Bicubic
+19:31:02.383: 	fps:               30/1
+19:31:02.383: 	format:            NV12
+19:31:02.383: 	YUV mode:          709/Partial
+19:31:02.384: NV12 texture support not available
+19:31:02.437: Audio monitoring device:
+19:31:02.437: 	name: Padrão
+19:31:02.437: 	id: default
+19:31:02.437: ---------------------------------
+19:31:02.439: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:31:02.442: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+19:31:02.521: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:31:02.521: No blackmagic support
+19:31:02.532: v4l2loopback not installed, virtual camera disabled
+19:31:02.543: NVENC supported
+19:31:02.543: FFMPEG VAAPI supported
+19:31:02.563: VLC found, VLC video source enabled
+19:31:02.563: ---------------------------------
+19:31:02.563:   Loaded Modules:
+19:31:02.563:     vlc-video.so
+19:31:02.563:     text-freetype2.so
+19:31:02.563:     rtmp-services.so
+19:31:02.563:     obs-x264.so
+19:31:02.563:     obs-transitions.so
+19:31:02.563:     obs-outputs.so
+19:31:02.563:     obs-libfdk.so
+19:31:02.563:     obs-filters.so
+19:31:02.563:     obs-ffmpeg.so
+19:31:02.563:     linux-v4l2.so
+19:31:02.563:     linux-pulseaudio.so
+19:31:02.563:     linux-jack.so
+19:31:02.563:     linux-decklink.so
+19:31:02.563:     linux-capture.so
+19:31:02.563:     linux-alsa.so
+19:31:02.563:     image-source.so
+19:31:02.563:     frontend-tools.so
+19:31:02.563:     decklink-ouput-ui.so
+19:31:02.563:     decklink-captions.so
+19:31:02.563: ---------------------------------
+19:31:02.565: ==== Startup complete ===============================================
+19:31:02.569: All scene data cleared
+19:31:02.569: ------------------------------------------------
+19:31:02.575: pulse-input: Server name: 'pulseaudio 14.2'
+19:31:02.575: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+19:31:02.576: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+19:31:02.576: [Loaded global audio device]: 'Áudio do desktop'
+19:31:02.576: pulse-input: Server name: 'pulseaudio 14.2'
+19:31:02.576: pulse-input: Audio format: s16le, 44100 Hz, 1 channels
+19:31:02.576: pulse-input: Started recording from 'alsa_input.usb-BLUE_MICROPHONE_Blue_Snowball_797_2019_10_07_30336-00.mono-fallback'
+19:31:02.576: [Loaded global audio device]: 'Mic/Aux'
+19:31:02.580: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+19:31:02.581: Switched to scene 'Cena'
+19:31:02.581: ------------------------------------------------
+19:31:02.581: Loaded scenes:
+19:31:02.581: - scene 'Cena':
+19:31:02.581:     - source: 'Captura de janela (Xcomposite)' (xcomposite_input)
+19:31:02.581: ------------------------------------------------
+19:31:03.135: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+19:31:03.135: 
+19:31:08.953: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+19:31:16.705: ---------------------------------
+19:31:16.706: [NVENC encoder: 'simple_h264_recording'] settings:
+19:31:16.706: 	rate_control: CQP
+19:31:16.706: 	bitrate:      0
+19:31:16.706: 	cqp:          23
+19:31:16.706: 	keyint:       250
+19:31:16.706: 	preset:       hq
+19:31:16.706: 	profile:      high
+19:31:16.706: 	width:        1920
+19:31:16.706: 	height:       1080
+19:31:16.706: 	2-pass:       false
+19:31:16.706: 	b-frames:     2
+19:31:16.706: 	GPU:          0
+19:31:16.706: 
+19:31:16.966: libfdk_aac encoder created
+19:31:16.966: libfdk_aac bitrate: 192, channels: 2
+19:31:16.972: ==== Recording Start ===============================================
+19:31:16.972: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pankeko/Vídeos/2021-02-04 19-31-16.mkv'...
+19:31:19.035: xcompcap: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+19:31:19.035: 	title: Team Fortress 2 - OpenGL
+19:31:19.035: 	class: hl2_linux
+19:31:19.035: 	Bit depth: 24
+19:31:19.035: 	Found proper GLXFBConfig (in 9): yes
+19:31:19.035: 
+19:31:19.048: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+19:31:19.063: xcompcap: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+19:31:19.063: 	title: Team Fortress 2 - OpenGL
+19:31:19.063: 	class: hl2_linux
+19:31:19.063: 	Bit depth: 24
+19:31:19.063: 	Found proper GLXFBConfig (in 9): yes
+19:31:19.063: 
+19:48:54.318: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+19:48:54.319: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+19:48:59.038: xcompcap: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+19:48:59.038: 	title: Team Fortress 2 - OpenGL
+19:48:59.038: 	class: hl2_linux
+19:48:59.038: 	Bit depth: 24
+19:48:59.038: 	Found proper GLXFBConfig (in 9): yes
+19:48:59.038: 
+19:48:59.109: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+19:48:59.241: xcompcap: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+19:48:59.241: 	title: Team Fortress 2 - OpenGL
+19:48:59.241: 	class: hl2_linux
+19:48:59.241: 	Bit depth: 24
+19:48:59.241: 	Found proper GLXFBConfig (in 9): yes
+19:48:59.241: 
+19:49:01.485: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+19:49:01.486: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+19:49:04.940: xcompcap: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+19:49:04.940: 	title: Team Fortress 2 - OpenGL
+19:49:04.940: 	class: hl2_linux
+19:49:04.940: 	Bit depth: 24
+19:49:04.940: 	Found proper GLXFBConfig (in 9): yes
+19:49:04.940: 
+19:49:05.985: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+19:49:05.986: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+19:49:06.975: xcompcap: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+19:49:06.975: 	title: Team Fortress 2 - OpenGL
+19:49:06.975: 	class: hl2_linux
+19:49:06.975: 	Bit depth: 24
+19:49:06.975: 	Found proper GLXFBConfig (in 9): yes
+19:49:06.975: 
+19:49:06.985: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+19:49:07.091: xcompcap: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+19:49:07.091: 	title: Team Fortress 2 - OpenGL
+19:49:07.091: 	class: hl2_linux
+19:49:07.091: 	Bit depth: 24
+19:49:07.091: 	Found proper GLXFBConfig (in 9): yes
+19:49:07.091: 
+20:04:49.285: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+20:04:49.286: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+20:05:17.845: xcompcap: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+20:05:17.845: 	title: Team Fortress 2 - OpenGL
+20:05:17.845: 	class: hl2_linux
+20:05:17.845: 	Bit depth: 24
+20:05:17.845: 	Found proper GLXFBConfig (in 9): yes
+20:05:17.845: 
+20:05:17.851: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+20:05:17.854: xcompcap: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+20:05:17.854: 	title: Team Fortress 2 - OpenGL
+20:05:17.854: 	class: hl2_linux
+20:05:17.854: 	Bit depth: 24
+20:05:17.854: 	Found proper GLXFBConfig (in 9): yes
+20:05:17.854: 
+20:13:20.786: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+20:13:20.787: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+20:13:25.291: xcompcap: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+20:13:25.291: 	title: Team Fortress 2 - OpenGL
+20:13:25.291: 	class: hl2_linux
+20:13:25.291: 	Bit depth: 24
+20:13:25.291: 	Found proper GLXFBConfig (in 9): yes
+20:13:25.291: 
+20:39:04.763: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pankeko/Vídeos/2021-02-04 19-31-16.mkv' stopped
+20:39:04.763: Output 'simple_file_output': stopping
+20:39:04.763: Output 'simple_file_output': Total frames output: 122018
+20:39:04.763: Output 'simple_file_output': Total drawn frames: 122017 (122034 attempted)
+20:39:04.763: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 17 (0,0%)
+20:39:04.763: ==== Recording Stop ================================================
+20:39:04.829: libfdk_aac encoder destroyed
+20:39:08.072: ==== Shutting down ==================================================
+20:39:08.096: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+20:39:08.111: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+20:39:08.111: pulse-input: Got 3025892 packets with 196105178 frames
+20:39:08.111: pulse-input: Stopped recording from 'alsa_input.usb-BLUE_MICROPHONE_Blue_Snowball_797_2019_10_07_30336-00.mono-fallback'
+20:39:08.111: pulse-input: Got 410699 packets with 180158667 frames
+20:39:08.114: All scene data cleared
+20:39:08.114: ------------------------------------------------
+20:39:08.434: [Scripting] Total detached callbacks: 0
+20:39:08.438: Freeing OBS context data
+20:39:08.575: == Profiler Results =============================
+20:39:08.575: run_program_init: 618,331 ms
+20:39:08.575:  ┣OBSApp::AppInit: 14,12 ms
+20:39:08.575:  ┃ ┗OBSApp::InitLocale: 10,999 ms
+20:39:08.575:  ┗OBSApp::OBSInit: 488,121 ms
+20:39:08.576:    ┣obs_startup: 18,888 ms
+20:39:08.576:    ┗OBSBasic::OBSInit: 422,646 ms
+20:39:08.576:      ┣OBSBasic::InitBasicConfig: 0,07 ms
+20:39:08.576:      ┣OBSBasic::ResetAudio: 0,141 ms
+20:39:08.576:      ┣OBSBasic::ResetVideo: 210,958 ms
+20:39:08.576:      ┣OBSBasic::InitOBSCallbacks: 0,002 ms
+20:39:08.576:      ┣OBSBasic::InitHotkeys: 0,03 ms
+20:39:08.576:      ┣obs_load_all_modules: 125,64 ms
+20:39:08.576:      ┃ ┣obs_init_module(decklink-captions.so): 0,017 ms
+20:39:08.576:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0,312 ms
+20:39:08.576:      ┃ ┣obs_init_module(frontend-tools.so): 60,091 ms
+20:39:08.576:      ┃ ┣obs_init_module(image-source.so): 0,004 ms
+20:39:08.576:      ┃ ┣obs_init_module(linux-alsa.so): 0,002 ms
+20:39:08.576:      ┃ ┣obs_init_module(linux-capture.so): 0,217 ms
+20:39:08.576:      ┃ ┣obs_init_module(linux-decklink.so): 0,138 ms
+20:39:08.576:      ┃ ┣obs_init_module(linux-jack.so): 0,001 ms
+20:39:08.576:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0,001 ms
+20:39:08.576:      ┃ ┣obs_init_module(linux-v4l2.so): 3,919 ms
+20:39:08.576:      ┃ ┣obs_init_module(obs-ffmpeg.so): 3,87 ms
+20:39:08.576:      ┃ ┃ ┗nvenc_check: 3,827 ms
+20:39:08.576:      ┃ ┣obs_init_module(obs-filters.so): 0,011 ms
+20:39:08.576:      ┃ ┣obs_init_module(obs-libfdk.so): 0,001 ms
+20:39:08.576:      ┃ ┣obs_init_module(obs-outputs.so): 0,002 ms
+20:39:08.576:      ┃ ┣obs_init_module(obs-transitions.so): 0,005 ms
+20:39:08.576:      ┃ ┣obs_init_module(obs-x264.so): 0,001 ms
+20:39:08.576:      ┃ ┣obs_init_module(rtmp-services.so): 1,126 ms
+20:39:08.576:      ┃ ┣obs_init_module(text-freetype2.so): 0,01 ms
+20:39:08.576:      ┃ ┗obs_init_module(vlc-video.so): 1,132 ms
+20:39:08.576:      ┣OBSBasic::ResetOutputs: 0,704 ms
+20:39:08.576:      ┣OBSBasic::CreateHotkeys: 0,032 ms
+20:39:08.576:      ┣OBSBasic::InitService: 1,565 ms
+20:39:08.576:      ┣OBSBasic::InitPrimitives: 0,212 ms
+20:39:08.576:      ┗OBSBasic::Load: 14,331 ms
+20:39:08.576: obs_hotkey_thread(25 ms): min=0,055 ms, median=0,154 ms, max=109,628 ms, 99th percentile=2,018 ms, 99,9727% below 25 ms
+20:39:08.576: audio_thread(Audio): min=0 ms, median=0,37 ms, max=19,91 ms, 99th percentile=1,026 ms
+20:39:08.576:  ┗receive_audio: min=0,007 ms, median=0,328 ms, max=19,874 ms, 99th percentile=0,914 ms
+20:39:08.576:    ┣buffer_audio: min=0 ms, median=0 ms, max=0,479 ms, 99th percentile=0,001 ms
+20:39:08.576:    ┗do_encode: min=0,126 ms, median=0,326 ms, max=19,872 ms, 99th percentile=0,908 ms
+20:39:08.576:      ┗encode(simple_aac_recording): min=0,116 ms, median=0,308 ms, max=8,675 ms, 99th percentile=0,731 ms
+20:39:08.576: obs_graphics_thread(33,3333 ms): min=0,174 ms, median=2,206 ms, max=203,69 ms, 99th percentile=8,109 ms, 99,9698% below 33,333 ms
+20:39:08.577:  ┣tick_sources: min=0 ms, median=0,236 ms, max=135,756 ms, 99th percentile=2,295 ms
+20:39:08.577:  ┣output_frame: min=0,076 ms, median=0,755 ms, max=34,934 ms, 99th percentile=3,552 ms
+20:39:08.577:  ┃ ┣gs_context(video->graphics): min=0,076 ms, median=0,27 ms, max=33,495 ms, 99th percentile=2,756 ms
+20:39:08.577:  ┃ ┃ ┣render_video: min=0,022 ms, median=0,178 ms, max=16,239 ms, 99th percentile=0,894 ms
+20:39:08.577:  ┃ ┃ ┃ ┣render_main_texture: min=0,016 ms, median=0,098 ms, max=6,638 ms, 99th percentile=0,308 ms
+20:39:08.577:  ┃ ┃ ┃ ┣render_convert_texture: min=0,037 ms, median=0,042 ms, max=4,985 ms, 99th percentile=0,173 ms
+20:39:08.577:  ┃ ┃ ┃ ┗stage_output_texture: min=0,021 ms, median=0,026 ms, max=15,936 ms, 99th percentile=0,517 ms
+20:39:08.577:  ┃ ┃ ┣gs_flush: min=0,003 ms, median=0,003 ms, max=17,41 ms, 99th percentile=0,04 ms
+20:39:08.577:  ┃ ┃ ┗download_frame: min=0 ms, median=0,002 ms, max=4,378 ms, 99th percentile=0,004 ms
+20:39:08.577:  ┃ ┗output_video_data: min=0,274 ms, median=0,462 ms, max=12,377 ms, 99th percentile=2,166 ms
+20:39:08.577:  ┗render_displays: min=0,048 ms, median=0,684 ms, max=187,622 ms, 99th percentile=4,846 ms
+20:39:08.577: video_thread(video): min=0,816 ms, median=1,403 ms, max=19,869 ms, 99th percentile=3,009 ms
+20:39:08.577:  ┗receive_video: min=0,815 ms, median=1,401 ms, max=19,867 ms, 99th percentile=2,988 ms
+20:39:08.577:    ┗do_encode: min=0,814 ms, median=1,399 ms, max=19,865 ms, 99th percentile=2,987 ms
+20:39:08.577:      ┗encode(simple_h264_recording): min=0,81 ms, median=1,383 ms, max=12,947 ms, 99th percentile=2,852 ms
+20:39:08.577: =================================================
+20:39:08.577: == Profiler Time Between Calls ==================
+20:39:08.577: obs_hotkey_thread(25 ms): min=25,072 ms, median=25,239 ms, max=134,691 ms, 90,2424% within ±2% of 25 ms (0% lower, 9,75763% higher)
+20:39:08.577: obs_graphics_thread(33,3333 ms): min=1,38 ms, median=33,333 ms, max=203,694 ms, 94,9622% within ±2% of 33,333 ms (2,51891% lower, 2,51891% higher)
+20:39:08.577: =================================================
+20:39:08.687: Number of memory leaks: 0
